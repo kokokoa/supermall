@@ -1,14 +1,16 @@
 <template>
-  <div id="app">
-    <div class="fater">123123 </div>
+  <div id="apap">
+    <router-view></router-view>
+    <main-tab-bar/>
   </div>
 </template>
 
 <script>
+ import mainTabBar from 'components/content/mainTabBar/MainTabBar'
  export default {
   name: 'App',
   components: {
-    
+    mainTabBar
   }
 }
 </script>
